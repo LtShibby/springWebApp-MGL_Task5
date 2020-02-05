@@ -1,0 +1,35 @@
+<div id="example1">
+    <!-- <label class="col-lg-3 control-lable text-light"> <h3>add-game.component.html</h3> </label> -->
+    <div class="container wrapper wrapper2">
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <br>
+                <label class="col-lg-3 control-lable text-light" for="game_releaseDate">
+                    <h3>Add Game</h3>
+                </label>
+                <form [formGroup]="gameForm" (ngSubmit)="submitForm()" name="gameForm" class="form-horizontal"
+                    novalidate>
+                    <div class="form-group">
+                        <label class="col-md-2 control-lable text-light" for="game_releaseDate">Game Name*</label>
+                        <input type="text" formControlName="game_name" class="form-control" maxlength="20">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-lable text-light" for="game_releaseDate">Game Genre</label>
+                        <input type="text" class="form-control" formControlName="game_genre" rows="3" maxlength="50">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-lable text-light" for="game_releaseDate">Game Release
+                            Date* (yyyy-mm-dd)</label>
+                        <input type="text" formControlName="game_releaseDate" class="form-control" maxlength="20">
+                    </div>
+                    <button type="submit" class="btn btn-outline-light">Submit</button> | 
+                    <button type="button" class="btn btn-outline-light move-right"
+                    (click)="resetGameForm()">Reset</button>
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+<div id="example1">
+    <!-- <label class="col-lg-3 control-lable text-light"> <h3>edit-game.component.html</h3> </label> -->
+    <div class="container wrapper wrapper2">
+        <div class="row">
+
+            <!-- Form -->
+            <div class="col-md-12">
+                <br>
+                <br>
+                <label class="col-lg-3 control-lable text-light">
+                    <h3>Edit Game</h3>
+                </label>
+                <form [formGroup]="updateGameForm" (ngSubmit)="submitForm()" novalidate>
+                    <div class="form-group" hidden>
+                        <label class="col-md-2 control-lable text-light" for="game_id">Game ID</label>
+                        <input type="text" formControlName="game_id" class="form-control" maxlength="20">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-lable text-light" for="game_name">Game Name*</label>
+                        <input type="text" formControlName="game_name" class="form-control" maxlength="20">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-lable text-light" for="game_genre">Game Genre</label>
+                        <input type="text" formControlName="game_genre" class="form-control" maxlength="20">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-lable text-light" for="game_releaseDate">Game Release
+                            Date* (yyyy-mm-dd)</label>
+                        <input type="text" formControlName="game_releaseDate" class="form-control" maxlength="20">
+                    </div>
+                    <button type="submit" class="btn btn-outline-light">Update</button> | 
+                    <button type="button" class="btn btn-outline-light move-right"
+                    (click)="resetGameForm()">Reset</button>
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
