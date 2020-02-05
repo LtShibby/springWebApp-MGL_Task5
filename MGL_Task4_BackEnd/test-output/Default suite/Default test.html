@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 28 15:02:43 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29580 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.MGL_Task4.service.Game_Service_Test.createGameTest()'><b>createGameTest</b><br>Test class: com.MGL_Task4.service.Game_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Game_Service_Test@4e3a6c83</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.Game_Controller_Test.createGameTest()'><b>createGameTest</b><br>Test class: com.MGL_Task4.controller.Game_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.Game_Controller_Test@49005dc4</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Game_Manager_Test.createGameTest()'><b>createGameTest</b><br>Test class: com.MGL_Task4.manager.Game_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Game_Manager_Test@25d9298e</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.Review_Controller_Test.createReviewTest()'><b>createReviewTest</b><br>Test class: com.MGL_Task4.controller.Review_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.Review_Controller_Test@b889cb6</td></tr>
+<tr>
+<td title='com.MGL_Task4.service.Review_Service_Test.createReviewTest()'><b>createReviewTest</b><br>Test class: com.MGL_Task4.service.Review_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Review_Service_Test@54c37dab</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Review_Manager_Test.createReviewTest()'><b>createReviewTest</b><br>Test class: com.MGL_Task4.manager.Review_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Review_Manager_Test@74faf450</td></tr>
+<tr>
+<td title='com.MGL_Task4.service.Game_Service_Test.deleteGameTest()'><b>deleteGameTest</b><br>Test class: com.MGL_Task4.service.Game_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Game_Service_Test@4e3a6c83</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.Game_Controller_Test.deleteGameTest()'><b>deleteGameTest</b><br>Test class: com.MGL_Task4.controller.Game_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.Game_Controller_Test@49005dc4</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Game_Manager_Test.deleteGameTest()'><b>deleteGameTest</b><br>Test class: com.MGL_Task4.manager.Game_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Game_Manager_Test@25d9298e</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.Review_Controller_Test.deleteReviewTest()'><b>deleteReviewTest</b><br>Test class: com.MGL_Task4.controller.Review_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.Review_Controller_Test@b889cb6</td></tr>
+<tr>
+<td title='com.MGL_Task4.service.Review_Service_Test.deleteReviewTest()'><b>deleteReviewTest</b><br>Test class: com.MGL_Task4.service.Review_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Review_Service_Test@54c37dab</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Review_Manager_Test.deleteReviewTest()'><b>deleteReviewTest</b><br>Test class: com.MGL_Task4.manager.Review_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Review_Manager_Test@74faf450</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.Review_Controller_Test.fetchReviewTest()'><b>fetchReviewTest</b><br>Test class: com.MGL_Task4.controller.Review_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.Review_Controller_Test@b889cb6</td></tr>
+<tr>
+<td title='com.MGL_Task4.service.Game_Service_Test.getGameTest()'><b>getGameTest</b><br>Test class: com.MGL_Task4.service.Game_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Game_Service_Test@4e3a6c83</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Game_Manager_Test.getGameTest()'><b>getGameTest</b><br>Test class: com.MGL_Task4.manager.Game_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Game_Manager_Test@25d9298e</td></tr>
+<tr>
+<td title='com.MGL_Task4.service.Review_Service_Test.getReviewForUpdateTest()'><b>getReviewForUpdateTest</b><br>Test class: com.MGL_Task4.service.Review_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Review_Service_Test@54c37dab</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Review_Manager_Test.getReviewForUpdateTest()'><b>getReviewForUpdateTest</b><br>Test class: com.MGL_Task4.manager.Review_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Review_Manager_Test@74faf450</td></tr>
+<tr>
+<td title='com.MGL_Task4.service.Review_Service_Test.getReviewTest()'><b>getReviewTest</b><br>Test class: com.MGL_Task4.service.Review_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Review_Service_Test@54c37dab</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Review_Manager_Test.getReviewTest()'><b>getReviewTest</b><br>Test class: com.MGL_Task4.manager.Review_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Review_Manager_Test@74faf450</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.MGL_Task4_Controller_Test.homeEndpointTest()'><b>homeEndpointTest</b><br>Test class: com.MGL_Task4.controller.MGL_Task4_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.MGL_Task4_Controller_Test@6ab826bb</td></tr>
+<tr>
+<td title='com.MGL_Task4.service.Game_Service_Test.listGamesTest()'><b>listGamesTest</b><br>Test class: com.MGL_Task4.service.Game_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Game_Service_Test@4e3a6c83</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.Game_Controller_Test.listGamesTest()'><b>listGamesTest</b><br>Test class: com.MGL_Task4.controller.Game_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.Game_Controller_Test@49005dc4</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Game_Manager_Test.listGamesTest()'><b>listGamesTest</b><br>Test class: com.MGL_Task4.manager.Game_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Game_Manager_Test@25d9298e</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.Review_Controller_Test.listReviewsTest()'><b>listReviewsTest</b><br>Test class: com.MGL_Task4.controller.Review_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.Review_Controller_Test@b889cb6</td></tr>
+<tr>
+<td title='com.MGL_Task4.service.Review_Service_Test.listReviewsTest()'><b>listReviewsTest</b><br>Test class: com.MGL_Task4.service.Review_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Review_Service_Test@54c37dab</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Review_Manager_Test.listReviewsTest()'><b>listReviewsTest</b><br>Test class: com.MGL_Task4.manager.Review_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Review_Manager_Test@74faf450</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.MGL_Endpoint_Constants_Test.testEndpoints()'><b>testEndpoints</b><br>Test class: com.MGL_Task4.controller.MGL_Endpoint_Constants_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.MGL_Endpoint_Constants_Test@6a2057e</td></tr>
+<tr>
+<td title='com.MGL_Task4.selenium.SeleniumTests.testGameCrudFunctonality()'><b>testGameCrudFunctonality</b><br>Test class: com.MGL_Task4.selenium.SeleniumTests</td>
+<td></td>
+<td>21</td>
+<td>com.MGL_Task4.selenium.SeleniumTests@726a5e6a</td></tr>
+<tr>
+<td title='com.MGL_Task4.selenium.SeleniumTests.testOpenHomeGoToGamesPageGoBackToHomePage()'><b>testOpenHomeGoToGamesPageGoBackToHomePage</b><br>Test class: com.MGL_Task4.selenium.SeleniumTests</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.selenium.SeleniumTests@726a5e6a</td></tr>
+<tr>
+<td title='com.MGL_Task4.service.Game_Service_Test.updateGameTest()'><b>updateGameTest</b><br>Test class: com.MGL_Task4.service.Game_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Game_Service_Test@4e3a6c83</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.Game_Controller_Test.updateGameTest()'><b>updateGameTest</b><br>Test class: com.MGL_Task4.controller.Game_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.Game_Controller_Test@49005dc4</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Game_Manager_Test.updateGameTest()'><b>updateGameTest</b><br>Test class: com.MGL_Task4.manager.Game_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Game_Manager_Test@25d9298e</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.Review_Controller_Test.updateReviewFormTest()'><b>updateReviewFormTest</b><br>Test class: com.MGL_Task4.controller.Review_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.Review_Controller_Test@b889cb6</td></tr>
+<tr>
+<td title='com.MGL_Task4.controller.Review_Controller_Test.updateReviewTest()'><b>updateReviewTest</b><br>Test class: com.MGL_Task4.controller.Review_Controller_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.controller.Review_Controller_Test@b889cb6</td></tr>
+<tr>
+<td title='com.MGL_Task4.service.Review_Service_Test.updateReviewTest()'><b>updateReviewTest</b><br>Test class: com.MGL_Task4.service.Review_Service_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.service.Review_Service_Test@54c37dab</td></tr>
+<tr>
+<td title='com.MGL_Task4.manager.Review_Manager_Test.updateReviewTest()'><b>updateReviewTest</b><br>Test class: com.MGL_Task4.manager.Review_Manager_Test</td>
+<td></td>
+<td>0</td>
+<td>com.MGL_Task4.manager.Review_Manager_Test@74faf450</td></tr>
+</table><p>
+</body>
+</html>

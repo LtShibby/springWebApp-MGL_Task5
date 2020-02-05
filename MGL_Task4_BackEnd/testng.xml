@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MGL_Task4_TestSuite">
+  <test thread-count="5" name="MGL_Task4_Tests">
+    <classes>
+      <class name="com.MGL_Task4.controller.MGL_Endpoint_Constants_Test"/>
+      <class name="com.MGL_Task4.manager.Review_Manager_Test"/>
+      <class name="com.MGL_Task4.service.Review_Service_Test"/>
+      <class name="com.MGL_Task4.controller.MGL_Task4_Controller_Test"/>
+      <class name="com.MGL_Task4.manager.Game_Manager_Test"/>
+      <class name="com.MGL_Task4.controller.Game_Controller_Test"/>
+      <class name="com.MGL_Task4.controller.Review_Controller_Test"/>
+      <class name="com.MGL_Task4.service.Game_Service_Test"/>
+      <class name="com.MGL_Task4.AllTests"/>
+    </classes>
+  </test> <!-- MGL_Task4_Tests -->
+</suite> <!-- MGL_Task4_TestSuite -->

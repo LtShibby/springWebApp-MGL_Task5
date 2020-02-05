@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="36" passed="36">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29580" started-at="2020-01-28T15:02:43 CST" finished-at="2020-01-28T15:03:12 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29580" started-at="2020-01-28T15:02:43 CST" finished-at="2020-01-28T15:03:12 CST">
+      <class name="com.MGL_Task4.controller.Review_Controller_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createReviewTest()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="createReviewTest" duration-ms="50" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReviewTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteReviewTest()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="deleteReviewTest" duration-ms="5" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteReviewTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="setup" is-config="true" duration-ms="0" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fetchReviewTest()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="fetchReviewTest" duration-ms="8" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchReviewTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="listReviewsTest()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="listReviewsTest" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listReviewsTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateReviewFormTest()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="updateReviewFormTest" duration-ms="3" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReviewFormTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateReviewTest()[pri:0, instance:com.MGL_Task4.controller.Review_Controller_Test@b889cb6]" name="updateReviewTest" duration-ms="3" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReviewTest -->
+      </class> <!-- com.MGL_Task4.controller.Review_Controller_Test -->
+      <class name="com.MGL_Task4.manager.Review_Manager_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createReviewTest()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="createReviewTest" duration-ms="5" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReviewTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteReviewTest()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="deleteReviewTest" duration-ms="5" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteReviewTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getReviewForUpdateTest()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="getReviewForUpdateTest" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReviewForUpdateTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getReviewTest()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="getReviewTest" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReviewTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="setup" is-config="true" duration-ms="3" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="listReviewsTest()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="listReviewsTest" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listReviewsTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateReviewTest()[pri:0, instance:com.MGL_Task4.manager.Review_Manager_Test@74faf450]" name="updateReviewTest" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReviewTest -->
+      </class> <!-- com.MGL_Task4.manager.Review_Manager_Test -->
+      <class name="com.MGL_Task4.manager.Game_Manager_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Game_Manager_Test@25d9298e]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createGameTest()[pri:0, instance:com.MGL_Task4.manager.Game_Manager_Test@25d9298e]" name="createGameTest" duration-ms="8" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGameTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Game_Manager_Test@25d9298e]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteGameTest()[pri:0, instance:com.MGL_Task4.manager.Game_Manager_Test@25d9298e]" name="deleteGameTest" duration-ms="3" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteGameTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Game_Manager_Test@25d9298e]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getGameTest()[pri:0, instance:com.MGL_Task4.manager.Game_Manager_Test@25d9298e]" name="getGameTest" duration-ms="3" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGameTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Game_Manager_Test@25d9298e]" name="setup" is-config="true" duration-ms="3" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="listGamesTest()[pri:0, instance:com.MGL_Task4.manager.Game_Manager_Test@25d9298e]" name="listGamesTest" duration-ms="3" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listGamesTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.manager.Game_Manager_Test@25d9298e]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateGameTest()[pri:0, instance:com.MGL_Task4.manager.Game_Manager_Test@25d9298e]" name="updateGameTest" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGameTest -->
+      </class> <!-- com.MGL_Task4.manager.Game_Manager_Test -->
+      <class name="com.MGL_Task4.service.Review_Service_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createReviewTest()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="createReviewTest" duration-ms="3" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReviewTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteReviewTest()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="deleteReviewTest" duration-ms="6" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteReviewTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="setup" is-config="true" duration-ms="3" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getReviewForUpdateTest()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="getReviewForUpdateTest" duration-ms="8" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReviewForUpdateTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getReviewTest()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="getReviewTest" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReviewTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="listReviewsTest()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="listReviewsTest" duration-ms="4" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listReviewsTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateReviewTest()[pri:0, instance:com.MGL_Task4.service.Review_Service_Test@54c37dab]" name="updateReviewTest" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReviewTest -->
+      </class> <!-- com.MGL_Task4.service.Review_Service_Test -->
+      <class name="com.MGL_Task4.controller.MGL_Task4_Controller_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.MGL_Task4_Controller_Test@6ab826bb]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homeEndpointTest()[pri:0, instance:com.MGL_Task4.controller.MGL_Task4_Controller_Test@6ab826bb]" name="homeEndpointTest" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeEndpointTest -->
+      </class> <!-- com.MGL_Task4.controller.MGL_Task4_Controller_Test -->
+      <class name="com.MGL_Task4.selenium.SeleniumTests">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.MGL_Task4.selenium.SeleniumTests@726a5e6a]" name="beforeTest" is-config="true" duration-ms="6248" started-at="2020-01-28T15:02:43 CST" finished-at="2020-01-28T15:02:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testGameCrudFunctonality()[pri:0, instance:com.MGL_Task4.selenium.SeleniumTests@726a5e6a]" name="testGameCrudFunctonality" duration-ms="21019" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:03:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGameCrudFunctonality -->
+        <test-method status="PASS" signature="testOpenHomeGoToGamesPageGoBackToHomePage()[pri:0, instance:com.MGL_Task4.selenium.SeleniumTests@726a5e6a]" name="testOpenHomeGoToGamesPageGoBackToHomePage" duration-ms="490" started-at="2020-01-28T15:03:11 CST" finished-at="2020-01-28T15:03:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenHomeGoToGamesPageGoBackToHomePage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.MGL_Task4.selenium.SeleniumTests@726a5e6a]" name="afterTest" is-config="true" duration-ms="856" started-at="2020-01-28T15:03:11 CST" finished-at="2020-01-28T15:03:12 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.MGL_Task4.selenium.SeleniumTests -->
+      <class name="com.MGL_Task4.controller.Game_Controller_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.Game_Controller_Test@49005dc4]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createGameTest()[pri:0, instance:com.MGL_Task4.controller.Game_Controller_Test@49005dc4]" name="createGameTest" duration-ms="4" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGameTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.Game_Controller_Test@49005dc4]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteGameTest()[pri:0, instance:com.MGL_Task4.controller.Game_Controller_Test@49005dc4]" name="deleteGameTest" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteGameTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.Game_Controller_Test@49005dc4]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="listGamesTest()[pri:0, instance:com.MGL_Task4.controller.Game_Controller_Test@49005dc4]" name="listGamesTest" duration-ms="4" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listGamesTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.Game_Controller_Test@49005dc4]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateGameTest()[pri:0, instance:com.MGL_Task4.controller.Game_Controller_Test@49005dc4]" name="updateGameTest" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGameTest -->
+      </class> <!-- com.MGL_Task4.controller.Game_Controller_Test -->
+      <class name="com.MGL_Task4.controller.MGL_Endpoint_Constants_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.controller.MGL_Endpoint_Constants_Test@6a2057e]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testEndpoints()[pri:0, instance:com.MGL_Task4.controller.MGL_Endpoint_Constants_Test@6a2057e]" name="testEndpoints" duration-ms="1" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndpoints -->
+      </class> <!-- com.MGL_Task4.controller.MGL_Endpoint_Constants_Test -->
+      <class name="com.MGL_Task4.service.Game_Service_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Game_Service_Test@4e3a6c83]" name="setup" is-config="true" duration-ms="65" started-at="2020-01-28T15:02:49 CST" finished-at="2020-01-28T15:02:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createGameTest()[pri:0, instance:com.MGL_Task4.service.Game_Service_Test@4e3a6c83]" name="createGameTest" duration-ms="331" started-at="2020-01-28T15:02:49 CST" finished-at="2020-01-28T15:02:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGameTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Game_Service_Test@4e3a6c83]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:49 CST" finished-at="2020-01-28T15:02:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteGameTest()[pri:0, instance:com.MGL_Task4.service.Game_Service_Test@4e3a6c83]" name="deleteGameTest" duration-ms="4" started-at="2020-01-28T15:02:49 CST" finished-at="2020-01-28T15:02:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteGameTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Game_Service_Test@4e3a6c83]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:49 CST" finished-at="2020-01-28T15:02:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getGameTest()[pri:0, instance:com.MGL_Task4.service.Game_Service_Test@4e3a6c83]" name="getGameTest" duration-ms="29" started-at="2020-01-28T15:02:49 CST" finished-at="2020-01-28T15:02:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGameTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Game_Service_Test@4e3a6c83]" name="setup" is-config="true" duration-ms="1" started-at="2020-01-28T15:02:49 CST" finished-at="2020-01-28T15:02:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="listGamesTest()[pri:0, instance:com.MGL_Task4.service.Game_Service_Test@4e3a6c83]" name="listGamesTest" duration-ms="45" started-at="2020-01-28T15:02:49 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listGamesTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.MGL_Task4.service.Game_Service_Test@4e3a6c83]" name="setup" is-config="true" duration-ms="2" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateGameTest()[pri:0, instance:com.MGL_Task4.service.Game_Service_Test@4e3a6c83]" name="updateGameTest" duration-ms="4" started-at="2020-01-28T15:02:50 CST" finished-at="2020-01-28T15:02:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGameTest -->
+      </class> <!-- com.MGL_Task4.service.Game_Service_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
