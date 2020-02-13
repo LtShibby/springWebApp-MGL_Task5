@@ -1,0 +1,18 @@
+<div>
+    <div id="MGLbackground">
+        <div class="container">
+            <div [hidden]="gameService.editGameBoolean">
+                <app-add-game></app-add-game>
+            </div>
+            <div [hidden]="!gameService.editGameBoolean">
+                <app-edit-game></app-edit-game>
+            </div>
+            <div>
+                <app-game-list></app-game-list>
+            </div>
+            <div>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>

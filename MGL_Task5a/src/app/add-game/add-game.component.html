@@ -1,0 +1,64 @@
+<div id="MGLbackground">
+    <div class="container wrapper wrapper2">
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <br>
+                <label class="col-lg-3 control-lable text-light" for="game_releaseDate">
+                    <h3>Add Game</h3>
+                </label>
+                <form class="form-horizontal" [formGroup]="gameForm" (ngSubmit)="submitForm()" name="gameForm">
+                    <table class="table table-sm table-dark text-light table-striped">
+                        <tbody>
+                            <tr scope="row">
+                                <td style="width: 50%;">
+                                    <label class="col-md-9 control-lable text-light" for="input_field_game_name">Game
+                                        Name*</label>
+                                </td>
+                                <td style="width: 50%;">
+                                    <input id="input_field_game_name" type="text" formControlName="game_name"
+                                        class="form-control" maxlength="20">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="col-md-9 control-lable text-light" for="input_field_game_genre">Game
+                                        Genre</label>
+                                </td>
+                                <td>
+                                    <input id="input_field_game_genre" type="text" class="form-control"
+                                        formControlName="game_genre" rows="3" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="col-md-9 control-lable text-light"
+                                        for="input_field_game_releaseDate">Game
+                                        Release
+                                        Date*</label>
+                                </td>
+                                <td>
+                                    <mat-form-field>
+                                        <input matInput [matDatepicker]="picker" formControlName="game_releaseDate"
+                                            class="form-control">
+                                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                        <mat-datepicker #picker></mat-datepicker>
+                                    </mat-form-field>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button aria-label="submitformlabel" id="button_submit_game" type="submit"
+                                        class="btn btn-outline-light">Submit</button> |
+                                    <button aria-label="resetformlabel" id="button_reset_submit_game" type="button"
+                                        class="btn btn-outline-light move-right"
+                                        (click)="resetGameForm()">Reset</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

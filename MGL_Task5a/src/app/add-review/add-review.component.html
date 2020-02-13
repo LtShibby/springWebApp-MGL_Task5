@@ -1,0 +1,64 @@
+<div id="MGLbackground">
+    <div class="container wrapper wrapper2">
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <br>
+                <label class="col-lg-6 control-lable text-light">
+                    <h3>Add Review for {{gameService.currentGame.game_name}}</h3>
+                </label>
+                <form [formGroup]="reviewForm" (ngSubmit)="submitForm()" name="reviewForm" class="form-horizontal"
+                    novalidate>
+                    <table class="table table-sm table-dark text-light table-striped">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label class="col-lg-6 control-lable text-light"
+                                        for="inputText-NewReviewForm-ReviewBody">Review Body*</label>
+                                </td>
+                                <td>
+                                    <textarea id='inputText-NewReviewForm-ReviewBody' formControlName="review_body"
+                                        class="form-control"
+                                        placeholder="What did you like/dislike about the game? [required]"
+                                        required></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="col-lg-6 control-lable text-light"
+                                        for="inputText-NewReviewForm-ReviewAuthor">Review Author</label>
+                                </td>
+                                <td>
+                                    <input id='inputText-NewReviewForm-ReviewAuthor' type="text"
+                                        formControlName="review_author" class="form-control"
+                                        placeholder="Your name (leave black to leave an anonymous review)">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="col-lg-6 control-lable text-light" for="starRatingSelection">Star
+                                        Review
+                                        Rating</label>
+                                </td>
+                                <td>
+                                    <star-rating id="starRatingSelection" value="" totalstars="5" checkedcolor="white"
+                                        uncheckedcolor="black" size="24px" readonly="false" (rate)="onRate($event)">
+                                    </star-rating>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="form-actions p-2">
+                                    <button id="button_submit_review" type="submit"
+                                        class="btn btn-outline-light">Submit</button> |
+                                    <button id="button_reset_submit_review" type="button"
+                                        class="btn btn-outline-light move-right"
+                                        (click)="resetReviewForm()">Reset</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

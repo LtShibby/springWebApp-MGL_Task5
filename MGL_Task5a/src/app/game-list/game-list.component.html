@@ -1,0 +1,47 @@
+<div>
+    <div id="MGLbackground">
+        <div class="container wrapper">
+            <div class="row">
+                <div class="container text-center">
+                    <div class="inner">
+                        <br>
+                        <br>
+                        <label class="col-lg-3 control-lable text-light">
+                            <h3>List of Games</h3>
+                        </label>
+                        <table class="table table-sm table-dark text-light table-striped">
+                            <thead class="container text-center">
+                                <tr>
+                                    <th scope="col">Game Name</th>
+                                    <th scope="col">Game Genre</th>
+                                    <th scope="col">Game Release Date</th>
+                                    <th scope="col">Reviews</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr scope="row" *ngFor="let game of gameService.GameList">
+                                    <td>{{game.game_name}}</td>
+                                    <td>{{game.game_genre}}</td>
+                                    <td>{{game.game_releaseDate | date: 'longDate'}}</td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-light move-right"
+                                            (click)="routeToReviewsForGamePage(game)">{{game.game_name}} Reviews</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-light move-right"
+                                            (click)="gameService.editCurrentGame(game)">Edit</button> |
+                                        <button type="button" class="btn btn-outline-light"
+                                            (click)="deleteGame(game)">Remove</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

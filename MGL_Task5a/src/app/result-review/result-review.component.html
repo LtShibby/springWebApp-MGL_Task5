@@ -1,0 +1,44 @@
+<div id="MGLbackground">
+    <div class="container">
+        <div class="panel-heading text-light">
+            <h2>Review Submitted</h2>
+            <div class="panel panel-info">
+                <div class="panel-body">
+                    <br />
+                    <table class="table table-dark text-light">
+                        <tr>
+                            <td>ReviewBody</td>
+                            <td>
+                                <p>{{currentReview.review_body}}</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Author</td>
+                            <td>
+                                <p>{{currentReview.review_author}}</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Rating</td>
+                            <td>
+                                <p>
+                                    <star-rating value="{{currentReview.review_rating}}" totalstars="5"
+                                    checkedcolor="white" uncheckedcolor="black" size="24px" readonly="true"
+                                    (rate)="onRate($event)"></star-rating>
+                                </p>
+                                <!-- <p>{{currentReview.review_rating}}</p> -->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-outline-light move-right"
+                                    (click)="routeToReviewsForGamePage()">Reviews</button>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

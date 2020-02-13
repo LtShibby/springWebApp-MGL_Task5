@@ -1,0 +1,62 @@
+<div id="MGLbackground">
+    <div class="container wrapper wrapper2">
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <br>
+                <label class="col-lg-3 control-lable text-light">
+                    <h3>Edit Game</h3>
+                </label>
+                <form [formGroup]="updateGameForm" (ngSubmit)="submitForm()" novalidate>
+                    <table class="table table-sm table-dark text-light table-striped">
+                        <tbody>
+                            <tr>
+                                <td style="width: 50%;">
+                                    <label class="col-md-9 control-lable text-light"
+                                        for="input_field_edit_game_name">Game
+                                        Name*</label>
+                                </td>
+                                <td style="width: 50%;">
+                                    <input id="input_field_edit_game_name" type="text" formControlName="game_name"
+                                        class="form-control" maxlength="20">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="col-md-9 control-lable text-light" for="input_field_game_genre">Game
+                                        Genre</label>
+                                </td>
+                                <td>
+                                    <input id="input_field_game_genre" type="text" formControlName="game_genre"
+                                        class="form-control" maxlength="20">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="col-md-9 control-lable text-light"
+                                        for="input_field_game_releaseDate">Game
+                                        Release
+                                        Date* (yyyy-mm-dd)</label>
+                                </td>
+                                <td>
+                                    <input id="input_field_game_releaseDate" type="text"
+                                        formControlName="game_releaseDate" class="form-control" maxlength="20">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button id="button_submit_edit_game" type="submit"
+                                        class="btn btn-outline-light">Update</button>
+                                    |
+                                    <button id="button_reset_edit_game" type="button"
+                                        class="btn btn-outline-light move-right"
+                                        (click)="resetUpdateGameForm()">Reset</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

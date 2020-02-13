@@ -1,0 +1,43 @@
+<div>
+    <div id="MGLbackground">
+        <div class="container wrapper">
+            <div class="row">
+                <div class="container text-center">
+                    <div class="inner">
+                        <label id="la" class="col-lg-6 control-lable text-light" for="">
+                            <h3>List of Reviews for {{gameService.currentGame.game_name}}</h3>
+                        </label>
+                        <table class="table table-sm table-dark text-light table-striped">
+                            <thead class="container text-center">
+                                <tr>
+                                    <th scope="col">Review Body</th>
+                                    <th scope="col">Review Author</th>
+                                    <th scope="col">Review Rating</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr scope="row" *ngFor="let review of gameService.ReviewList">
+                                    <td style="word-wrap: break-word;min-width: 175px;max-width: 160px;">{{review.review_body}}</td>
+                                    <td>{{review.review_author}}</td>
+                                    <td>
+                                        <star-rating value="{{review.review_rating}}" totalstars="5"
+                                            checkedcolor="white" uncheckedcolor="black" size="24px" readonly="true"
+                                            (rate)="onRate($event)"></star-rating>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-light move-right"
+                                            (click)="gameService.editCurrentReview(review)">Edit</button> |
+                                        <button type="button" class="btn btn-outline-light"
+                                            (click)="deleteReview(review)">Remove</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

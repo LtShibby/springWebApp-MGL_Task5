@@ -1,0 +1,18 @@
+<div>
+    <div id="MGLbackground">
+        <div class="container">
+            <div [hidden]="gameService.editReviewBoolean">
+                <app-add-review></app-add-review>
+            </div>
+            <div [hidden]="!gameService.editReviewBoolean">
+                <app-edit-review></app-edit-review>
+            </div>
+            <div>
+                <app-review-list></app-review-list>
+            </div>
+            <div>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
